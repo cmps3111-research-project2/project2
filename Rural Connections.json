@@ -697,6 +697,189 @@
         "name": "Wheatfield.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 4_Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 4_Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/ba99ddd547827ac3be5894063feaf430fbce1e61f9929be8cb2280a70a4afe8b_Generic Character 4_Down_1.png",
+          "name": "Generic Character 4_Down_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 4_Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 4_Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/1d801da5a017ea6f78c61213261d19bdbc88916e3709f12a365bdb11ee2ec51d_Generic Character 4_Down_2.png",
+          "name": "Generic Character 4_Down_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 4_Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 4_Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/f6af4ed8393c383bba1322f4d9f8f0d86053933e209edb88a99b8e5cb5823db4_Generic Character 4_Down_3.png",
+          "name": "Generic Character 4_Down_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 4_Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 4_Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/4b6aa687d042c5b213e317b9c09ffd8e60b7818e8401ee8e03511f5844ce3a04_Generic Character 4_Left_1.png",
+          "name": "Generic Character 4_Left_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 4_Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 4_Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/0fa0477c4bd5ada2082204d08f901bcd9b3a994ff98a385e00556029425bce0d_Generic Character 4_Left_2.png",
+          "name": "Generic Character 4_Left_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 4_Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 4_Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/dcad3fe8ce8c7baf96d9b1361ff359298f6099fe7083ce2f674299f0f63fbf73_Generic Character 4_Left_3.png",
+          "name": "Generic Character 4_Left_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 4_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 4_Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/f6bd92a50892efb41843e7ac6270cac63c8d3735279284afbc6bb04835801433_Generic Character 4_Right_1.png",
+          "name": "Generic Character 4_Right_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 4_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 4_Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/e115f06aab811b4d60d08fc5d4575447b6cc480c836327bea58a8002a995fd25_Generic Character 4_Right_2.png",
+          "name": "Generic Character 4_Right_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 4_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 4_Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/acc2c4c5143845b5bc14a7ffde17726a0455bae750a6e8b418bbe76b1218a183_Generic Character 4_Right_3.png",
+          "name": "Generic Character 4_Right_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 4_Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 4_Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/76778adbc216b1812456769795842515011077ec7777eb3e7d133558a14a9ac9_Generic Character 4_Up_1.png",
+          "name": "Generic Character 4_Up_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 4_Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 4_Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/f0760d955ee15d0221ba2d9cb4a3a93bc2b03b78e6b098c82f0fa2765d9120cc_Generic Character 4_Up_2.png",
+          "name": "Generic Character 4_Up_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generic Character 4_Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Generic Character 4_Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Retro/Generic Character/3ff0dc930cb073e09239ab3360f1309df2c18e684c2a0d2ce399fe11f6ade833_Generic Character 4_Up_3.png",
+          "name": "Generic Character 4_Up_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite53",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite54",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -710,11 +893,20 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/overworld"
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pixelperfectmovement"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
