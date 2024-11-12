@@ -880,6 +880,552 @@
         "name": "NewSprite54",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (1).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/fda47cff3afe1a4d1ce358eeb44f1955949deffa84cb08cf95464df349160741_Default-panel (1).png",
+          "name": "Default-panel (1).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (11).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (11).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/1fbfda638f6a3c73c441706a80b44c9cbd06ae90428f042994c58cb5618ecc29_Default-panel (11).png",
+          "name": "Default-panel (11).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (13).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (13).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/61b8f354f96a170dc9cc25c6f4a4b27e6032210fae98c6202f440057f659d5d8_Default-panel (13).png",
+          "name": "Default-panel (13).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (14).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (14).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/594532c0816cbd1f17a0ab58adbb2dd62bdd45276c0314bbcff16405e1e3ab21_Default-panel (14).png",
+          "name": "Default-panel (14).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (2).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/d87a353145b24625060b092f3c8c5b82d5074a41895e6df8bce8ad78221d725c_Default-panel (2).png",
+          "name": "Default-panel (2).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (12).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (12).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/aabe4ec83f4fbeb4295288d852829fca84e8e2de5e0833eb6484ace30add656f_Default-panel (12).png",
+          "name": "Default-panel (12).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (15).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (15).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/47aed9da923fd05a40527f4f67ec481c8304c8c770b00b941f0f6c164da3f7f1_Default-panel (15).png",
+          "name": "Default-panel (15).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (16).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (16).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/758f06517c1685d3e5de64497eff0a2eebc7605f515d930b531b238f1db90c70_Default-panel (16).png",
+          "name": "Default-panel (16).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (17).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (17).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/b85be4a900c75493df2a6960fda2ea21293071ab355de422226ad77fb840c5b4_Default-panel (17).png",
+          "name": "Default-panel (17).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (19).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (19).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/6f3659a091e398fe6248c2dc5f63ceb79bc9feba75f966282785f90bb7039ed9_Default-panel (19).png",
+          "name": "Default-panel (19).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (20).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (20).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/731cd17d5b0d4906fd3e523689c2e53e4da4e51f762443dbbb77abe7d58c315d_Default-panel (20).png",
+          "name": "Default-panel (20).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (18).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (18).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/8c48b7185206d23d571be72fb7d713683f13e5e7c3712151d20e7da94e5dea6a_Default-panel (18).png",
+          "name": "Default-panel (18).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (3).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/a291b7aedbb92520b45d2addee7721d6b422a5e63fe6178dfe949dfce2916bd1_Default-panel (3).png",
+          "name": "Default-panel (3).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (21).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (21).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/a4fcecdc72e2a7a6b80cfff480aa9c9516f2d96065dd1d87240cf3ceed022a5d_Default-panel (21).png",
+          "name": "Default-panel (21).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (22).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (22).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/946954a8a75a42b2544f27fa7f3e4a3e6df023352ccc54c4aa12126672ae1ab3_Default-panel (22).png",
+          "name": "Default-panel (22).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (23).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (23).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/f9d5e3f21944a524619ea96664e5652471212c04d4e618e72fb8de3fb1b4c731_Default-panel (23).png",
+          "name": "Default-panel (23).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (25).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (25).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/d54d63e649efd539b3ffacb5e3b2b3c7231f197b72bea5d046e582cb9547b1c0_Default-panel (25).png",
+          "name": "Default-panel (25).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (26).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (26).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/dfa82986d9b0ba454e274fb6dd97a0da079d39ffad0e20a6d751258061a20d93_Default-panel (26).png",
+          "name": "Default-panel (26).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (24).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (24).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/c3d940f22c76133691a97929c0252ed25c55601b7facab0778c659648f581126_Default-panel (24).png",
+          "name": "Default-panel (24).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (27).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (27).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/7453c80e316c909c64f09d933bab6385331c0ba460f4c8825fd6fe01b760edb7_Default-panel (27).png",
+          "name": "Default-panel (27).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (28).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (28).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/19baa2fdced276d3ac7d3bbc7751ceba3b035811bbc11211562c5cd584a52224_Default-panel (28).png",
+          "name": "Default-panel (28).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (29).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (29).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/1fbfda638f6a3c73c441706a80b44c9cbd06ae90428f042994c58cb5618ecc29_Default-panel (29).png",
+          "name": "Default-panel (29).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (30).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (30).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/21d2f70d8f0a07843e7bdc9369cf376467c654f146d2ae437a900ad78550bf29_Default-panel (30).png",
+          "name": "Default-panel (30).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (31).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (31).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/4530207f9820c0990ac1354b1c323ac80c2df8a9280996d4e00f0c34e378e0d3_Default-panel (31).png",
+          "name": "Default-panel (31).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (32).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (32).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/620b390649e4c1a9c146390d4582e54f10a954d8dfdfb0d4234c059c5549bcc8_Default-panel (32).png",
+          "name": "Default-panel (32).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (4).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/a8e9359148990b35fc208663a2f0cff49c53da4c6a745df58198f8e281fd272f_Default-panel (4).png",
+          "name": "Default-panel (4).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (5).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/2a30b4004c5c2703be6e2bdad593a0a8cfd4a3afc476cdd8168c568a8a92f50a_Default-panel (5).png",
+          "name": "Default-panel (5).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (6).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (6).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/818c0b71151cd6893ab451ddc0c07a1bf66bf8d99676f73db6036a4fc438759b_Default-panel (6).png",
+          "name": "Default-panel (6).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (10).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (10).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/8593fb374b7096bde0ae0e76fcf3ab3975e3a2212b03b6567604c0200bc905e5_Default-panel (10).png",
+          "name": "Default-panel (10).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (7).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (7).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/4c1792f3d79e8a981d06ef450a7d3f71dd6a1de4089e1fbbb2817a7e0ad16d51_Default-panel (7).png",
+          "name": "Default-panel (7).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (9).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (9).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/864e2fdf4e7b767e41f0405bd81aba381e1130c8cbf96e909480e254dbbb2f5f_Default-panel (9).png",
+          "name": "Default-panel (9).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Default-panel (8).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (8).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/43f352264eb8aa7d997ec4a2bf39723e0d7200e419ca2d7e5247713f992ed850_Default-panel (8).png",
+          "name": "Default-panel (8).png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart Red_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart Red_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/938ddce064ae3f50e145623d8766d066721bb8f227783301d7f5d2f0563f5533_Heart Red_1.png",
+          "name": "Heart Red_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart Red_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart Red_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/552c302c1bf96c4efcb6e8f3a47226f015065b13d758eacef10d8e52d3656321_Heart Red_2.png",
+          "name": "Heart Red_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart Red_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart Red_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/001188d042a9a4c9dbdcf452faf383a77a848cc19f09a129179990a3f2f13411_Heart Red_3.png",
+          "name": "Heart Red_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart Red_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart Red_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/2ba82e25951f6e61ba95b9f34425eb736475ca83a65aee850112eed6b772bbb9_Heart Red_4.png",
+          "name": "Heart Red_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Settings.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Settings.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/c5978bcc72302694345b67b3455fe181dfb94b321a91850f96463a95053ccef8_Settings.png",
+          "name": "Settings.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Settings_Bar02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Settings_Bar02.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/da74f07bab2fcbd148306084fcc247f0c935ad815afd2cabfac0e85ff72bc4e6_Settings_Bar02.png",
+          "name": "Settings_Bar02.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Settings_Bar03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Settings_Bar03.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/e206a1b175cea9d36de5a25c6ab98fc14c19f5415fafa8fc07ecb68e03ab1a89_Settings_Bar03.png",
+          "name": "Settings_Bar03.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Metal Bar Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Metal Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/f8e5d88f8b377f182d5d42adf0bf9bc5f94034ac24c410f07ba27c46cda841c3_Metal Bar Border.png",
+          "name": "Metal Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/3eee053defc4f2944d72ef78b5aebbac31634202712157a3630b84fe08d79cbb_Pixel Red Fill Bar.png",
+          "name": "Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pixel Yellow Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pixel Yellow Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/62f87cd20640fba9413cea576a648c6995a6d0e0026ba0adadb937ab3adec1b1_Pixel Yellow Fill Bar.png",
+          "name": "Pixel Yellow Fill Bar.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -889,7 +1435,18 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "QuestsCompleted",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "MaxQuests",
+      "type": "number",
+      "value": 2
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -898,6 +1455,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
