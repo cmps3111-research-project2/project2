@@ -1,11 +1,21 @@
 [
 	{
-		"title": "Start",
+		"title": "first",
 		"tags": "",
 		"body": "Hello\nhi",
 		"position": {
 			"x": 215,
-			"y": -44
+			"y": -43
+		},
+		"colorID": 0
+	},
+	{
+		"title": "intro",
+		"tags": "",
+		"body": "Ian: Hello! My name is Ian, and I’m excited to meet you! We’ve been assigned to this remote village as representatives from the Ministry of Education, Culture, Science, and Technology. Our mission is to make this village more digitally friendly and bring new opportunities to the community.\nIan: Our first task is to head to the local school. That’s where we’ll be meeting some of the teachers and students, and we’ll get a better idea of what they need from us. I think they’re a bit curious about what we’re doing here, so let’s make a good first impression!\nIan: Alright! Let’s make a difference—one step at a time.",
+		"position": {
+			"x": -280,
+			"y": -236
 		},
 		"colorID": 0
 	}

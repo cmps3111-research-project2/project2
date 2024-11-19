@@ -1,0 +1,62 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Hello, traveler! What brings you here?\n\n[[I'm looking for adventure.|adventure_choice]]\n[[Just passing through.|passing_choice]]",
+		"position": {
+			"x": 186,
+			"y": 142
+		},
+		"colorID": 2
+	},
+	{
+		"title": "adventure_choice",
+		"tags": "",
+		"body": "Ah, an adventurer! Do you seek treasure or glory?\n\n[[Treasure!|treasure]]\n[[Glory!|glory]]",
+		"position": {
+			"x": 411,
+			"y": 577
+		},
+		"colorID": 0
+	},
+	{
+		"title": "passing_choice",
+		"tags": "",
+		"body": "I see. Well, safe travels, friend.\n\n[[Thanks!|end]]",
+		"position": {
+			"x": 588,
+			"y": -156
+		},
+		"colorID": 0
+	},
+	{
+		"title": "treasure",
+		"tags": "",
+		"body": "There are rumors of a hidden treasure deep in the forest. Beware the dangers!\n\n[[I'll be careful.|end]]",
+		"position": {
+			"x": 681,
+			"y": 318
+		},
+		"colorID": 0
+	},
+	{
+		"title": "glory",
+		"tags": "",
+		"body": "Ah, the pursuit of glory. There are battles to be fought and legends to be made!\n\n[[I'm ready for battle.|end]]",
+		"position": {
+			"x": 746,
+			"y": 713
+		},
+		"colorID": 0
+	},
+	{
+		"title": "end",
+		"tags": "",
+		"body": "Good luck on your journey. May fortune favor you!",
+		"position": {
+			"x": 1146,
+			"y": 443
+		},
+		"colorID": 0
+	}
+]
