@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 218,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -1426,6 +1426,99 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/62f87cd20640fba9413cea576a648c6995a6d0e0026ba0adadb937ab3adec1b1_Pixel Yellow Fill Bar.png",
           "name": "Pixel Yellow Fill Bar.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chevron-Arrow-Right.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Chevron-Arrow-Right.png\",\"extension\":\".png\"}",
+        "name": "Chevron-Arrow-Right.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/afe50706def7a47730e0556dc031759efd60c1e365f46b6f7e3c23836320730e_Chevron-Arrow-Right.png",
+          "name": "Chevron-Arrow-Right.png"
+        }
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/introDialogue.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/introDialogue.json\"}",
+        "name": "introDialogue",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite55",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite56",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "teacher.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "teacher.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/teacher.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "teacher",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "community_worker.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "community_worker.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/community_worker.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "community_worker",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1445,6 +1538,16 @@
       "name": "MaxQuests",
       "type": "number",
       "value": 2
+    },
+    {
+      "name": "dialogueState",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "textScrollSpeed",
+      "type": "number",
+      "value": 0.5
     }
   ],
   "layouts": [
