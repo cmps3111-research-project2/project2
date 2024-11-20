@@ -1823,6 +1823,15 @@
         "name": "modern-school tileset.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "school scene.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "school scene.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1911,7 +1920,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "atlasImage": "modern-school tileset.png",
+        "atlasImage": "school scene.png",
         "rowCount": 96,
         "columnCount": 96,
         "tileSize": 8,
