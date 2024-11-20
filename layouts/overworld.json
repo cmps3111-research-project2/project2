@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.1726229638177912,
+    "zoomFactor": 0.8141881203710106,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3467,7 +3467,58 @@
           },
           "parameters": [
             "",
+            "assets\\dialogue.json"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
             "introDialogue"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogueOptions"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DialogueOptionsPointer"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "dialogueBackground",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "dialogue",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"intro\""
           ]
         }
       ]
@@ -3536,10 +3587,29 @@
       "actions": [
         {
           "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
             "value": "Cache"
           },
           "parameters": [
             "dialogueElements"
+          ]
+        },
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "=",
+            "100"
           ]
         }
       ],
@@ -3563,14 +3633,6 @@
           "actions": [
             {
               "type": {
-                "value": "DialogueTree::StartDialogueFromBranch"
-              },
-              "parameters": [
-                "\"Start\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Montre"
               },
               "parameters": [
@@ -3578,6 +3640,90 @@
                 ""
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueState",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "dialogueCollision",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"Start_Teacher\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "Player",
+                    "TopDownMovement",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueState",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::HasClippedTextScrollingCompleted"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::MaxSpeed"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "=",
+            "100"
           ]
         }
       ]
@@ -3696,7 +3842,7 @@
               "parameters": [
                 "textScrollSpeed",
                 "=",
-                "0.02"
+                "-1"
               ]
             }
           ]
@@ -3724,6 +3870,191 @@
                 "textScrollSpeed",
                 "=",
                 "0.05"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "DialogueTree::IsDialogueLineType"
+          },
+          "parameters": [
+            "\"options\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "dialogueOptions"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DialogueOptionsPointer"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsDialogueLineType"
+          },
+          "parameters": [
+            "\"options\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "dialogueOptions",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "DialogueOptionsPointer",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Up"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::SelectOption"
+              },
+              "parameters": [
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "DialogueOptionsPointer",
+                "=",
+                "78",
+                "=",
+                "390"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Down"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::SelectOption"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "DialogueOptionsPointer",
+                "=",
+                "78",
+                "=",
+                "410"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DialogueTree::ConfirmSelectOption"
+              },
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DialogueTree::HasSelectedOptionChanged"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogueOptions",
+                "Text",
+                "=",
+                "DialogueTree::VerticalOptionsList(\"\")"
               ]
             }
           ]
@@ -3940,6 +4271,39 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Intro",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

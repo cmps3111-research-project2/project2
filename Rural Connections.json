@@ -1519,6 +1519,41 @@
         "name": "community_worker",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/dialogue.json",
+        "kind": "json",
+        "metadata": "{\"localFilePath\":\"assets/dialogue.json\",\"extension\":\".json\"}",
+        "name": "assets\\dialogue.json",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Users/USER/OneDrive/Pictures/rural_connections_intro.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Users\\USER\\OneDrive\\Pictures\\rural_connections_intro.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rural_connections_intro.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "rural_connections_intro.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite57",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
