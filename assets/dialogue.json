@@ -1,61 +1,211 @@
 [
 	{
-		"title": "Start",
+		"title": "Overworld_Elder",
 		"tags": "",
-		"body": "Hello, traveler! What brings you here?\n\n[[I'm looking for adventure.|adventure_choice]]\n[[Just passing through.|passing_choice]]",
+		"body": "As you walk through the village square, you spot the elder sitting on a wooden bench, watching the passersby. When you approach, the elder's face lights up with a warm smile.\n\nElder: \"Oh hello, traveller! I've been looking for you everywhere! It seems as if...\n\n[[I could use your help with a small matter!|elder_request]]\"",
 		"position": {
-			"x": 186,
-			"y": 142
+			"x": 50,
+			"y": 50
 		},
 		"colorID": 2
 	},
 	{
-		"title": "adventure_choice",
+		"title": "elder_request",
 		"tags": "",
-		"body": "Ah, an adventurer! Do you seek treasure or glory?\n\n[[Treasure!|treasure]]\n[[Glory!|glory]]",
+		"body": "Elder: \"I have a bit of trouble with that new gadget my grandson sent me. These newfangled devices confuse me, but you seem to know your way around them. Could you spare a moment to help?\"\n\n[[Agree to help the elder with their device.|Start_Elder]]\n[[Politely decline, saying you're in a rush.|elder_decline]]",
 		"position": {
-			"x": 411,
-			"y": 577
+			"x": 300,
+			"y": 50
 		},
 		"colorID": 0
 	},
 	{
-		"title": "passing_choice",
+		"title": "elder_decline",
 		"tags": "",
-		"body": "I see. Well, safe travels, friend.\n\n[[Thanks!|end]]",
+		"body": "Elder: \"Ah, I understand, dear. You're busy, and time waits for no one! Perhaps later, when you're free.\"\n\nYou bid farewell, knowing the elder will be waiting patiently for help.",
+		"position": {
+			"x": 596,
+			"y": 44
+		},
+		"colorID": 1
+	},
+	{
+		"title": "Overworld_Teacher",
+		"tags": "",
+		"body": "You stroll through the school grounds, noticing Mr. Rhodes pacing nervously outside the computer lab. He waves excitedly as soon as he spots you.\n\nMr. Rhodes: \"Oh hello, traveller! I've been looking for you everywhere! It seems as if... \n\n[[We have a bit of a tech emergency on our hands.|teacher_request]]\"",
+		"position": {
+			"x": 50,
+			"y": 300
+		},
+		"colorID": 2
+	},
+	{
+		"title": "teacher_request",
+		"tags": "",
+		"body": "Mr. Rhodes: \"The computer lab’s main machine is acting up again, and you’re the only one who seems to know how to handle it! Would you mind lending a hand before the class starts?\"\n\n[[Agree to help Mr. Rhodes troubleshoot.|Start_Teacher]]\n[[Decline, mentioning you have other pressing matters.|teacher_decline]]",
+		"position": {
+			"x": 300,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "teacher_decline",
+		"tags": "",
+		"body": "Mr. Rhodes: \"Ah, no worries! I know you've got your own adventures to handle. If you change your mind, I'll be here fighting with the tech until then.\"\n\nYou give a nod of understanding and continue on your way.",
+		"position": {
+			"x": 598,
+			"y": 292
+		},
+		"colorID": 1
+	},
+	{
+		"title": "Start_Elder",
+		"tags": "",
+		"body": "You enter the elder's cozy living room, and they ask for help setting up a new device.\n\n[[Help the elder set up the device.|setup_instructions]]",
+		"position": {
+			"x": 299,
+			"y": -220
+		},
+		"colorID": 2
+	},
+	{
+		"title": "setup_instructions",
+		"tags": "",
+		"body": "Elder: \"Thank you, dear. My eyes aren't as sharp as they used to be, and these screens seem to get smaller and smaller! My grandson says it's just a few simple steps to get this up and running.\"\n\n[[Select language for the device.|step_1]]",
 		"position": {
 			"x": 588,
-			"y": -156
+			"y": -219
 		},
 		"colorID": 0
 	},
 	{
-		"title": "treasure",
+		"title": "step_1",
 		"tags": "",
-		"body": "There are rumors of a hidden treasure deep in the forest. Beware the dangers!\n\n[[I'll be careful.|end]]",
+		"body": "You select a language for the device.\n\n[[Connect to the home Wi-Fi network.|step_2]]",
 		"position": {
-			"x": 681,
-			"y": 318
+			"x": 876,
+			"y": -223
 		},
 		"colorID": 0
 	},
 	{
-		"title": "glory",
+		"title": "step_2",
 		"tags": "",
-		"body": "Ah, the pursuit of glory. There are battles to be fought and legends to be made!\n\n[[I'm ready for battle.|end]]",
+		"body": "You connect the device to the home Wi-Fi network.\n\n[[Sign in with the provided email or create a new account.|step_3]]",
 		"position": {
-			"x": 746,
-			"y": 713
+			"x": 1163,
+			"y": -227
 		},
 		"colorID": 0
 	},
 	{
-		"title": "end",
+		"title": "step_3",
 		"tags": "",
-		"body": "Good luck on your journey. May fortune favor you!",
+		"body": "You sign in with the elder's email.\n\n[[Configure basic settings like text size and accessibility options.|step_4]]",
 		"position": {
-			"x": 1146,
-			"y": 443
+			"x": 1173,
+			"y": 51
+		},
+		"colorID": 0
+	},
+	{
+		"title": "step_4",
+		"tags": "",
+		"body": "You adjust the text size and accessibility settings, making the device comfortable for the elder to use.\n\n[[End of setup.|elder_end]]",
+		"position": {
+			"x": 1500,
+			"y": 50
+		},
+		"colorID": 0
+	},
+	{
+		"title": "elder_end",
+		"tags": "",
+		"body": "Elder: \"Thank you so much! I can actually see what I'm doing now. You're a lifesaver!\"",
+		"position": {
+			"x": 1800,
+			"y": 50
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Start_Teacher",
+		"tags": "",
+		"body": "You arrive at school and see Mr. Rhodes struggling with a computer in the lab.\n\n[[Offer to help Mr. Rhodes.|teacher_help]]",
+		"position": {
+			"x": 50,
+			"y": 300
+		},
+		"colorID": 2
+	},
+	{
+		"title": "teacher_help",
+		"tags": "",
+		"body": "Mr. Rhodes: \"Ah, just the person I need! This computer is glitching, and the whole class will need it for our lesson today. Think you can help me troubleshoot?\"\n\n[[Start troubleshooting the computer.|troubleshoot_start]]",
+		"position": {
+			"x": 52,
+			"y": 615
+		},
+		"colorID": 0
+	},
+	{
+		"title": "troubleshoot_start",
+		"tags": "",
+		"body": "You pull out your toolkit and diagnostic USB, ready to fix the issues.\n\n[[Tackle the corrupted files first.|corrupted_files]]",
+		"position": {
+			"x": 301,
+			"y": 602
+		},
+		"colorID": 8
+	},
+	{
+		"title": "corrupted_files",
+		"tags": "",
+		"body": "You open the file diagnostics tool and use 'System Restore.' The corrupted files are repaired!\n\n[[Move on to the slow processor.|slow_processor]]",
+		"position": {
+			"x": 1202,
+			"y": 590
+		},
+		"colorID": 0
+	},
+	{
+		"title": "slow_processor",
+		"tags": "",
+		"body": "You perform a 'Fan Clean-Up,' boosting the computer's performance.\n\n[[Confront the final challenge: a virus threat.|virus_threat]]",
+		"position": {
+			"x": 1200,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "virus_threat",
+		"tags": "",
+		"body": "You plug in the 'Anti-Virus Flash Drive' and eliminate the virus. The computer is back to normal!\n\n[[Celebrate with Mr. Rhodes.|victory_celebration]]",
+		"position": {
+			"x": 1500,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "victory_celebration",
+		"tags": "",
+		"body": "Mr. Rhodes: \"Great job! And hey, let's tell the class about why tech care is important.\"\n\n[[Talk to the class about tech maintenance.|class_lesson]]",
+		"position": {
+			"x": 1800,
+			"y": 300
+		},
+		"colorID": 0
+	},
+	{
+		"title": "class_lesson",
+		"tags": "",
+		"body": "You explain the importance of tech maintenance and how simple troubleshooting can prevent problems.\n\nMr. Rhodes: \"Remember, technology helps us every day. Treat it well, and it’ll treat you well back!\"",
+		"position": {
+			"x": 2100,
+			"y": 300
 		},
 		"colorID": 0
 	}
