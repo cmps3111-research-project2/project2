@@ -18,60 +18,10 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.1726229638177912,
+    "zoomFactor": 1.134371579716122,
     "windowMask": false
   },
-  "objectsGroups": [
-    {
-      "name": "Collisions",
-      "objects": [
-        {
-          "name": "Taverns"
-        },
-        {
-          "name": "Barracks"
-        },
-        {
-          "name": "Workshops"
-        },
-        {
-          "name": "Trees"
-        },
-        {
-          "name": "Cliffs_and_Rocks"
-        },
-        {
-          "name": "Keep"
-        },
-        {
-          "name": "RedHouses"
-        },
-        {
-          "name": "Houses"
-        },
-        {
-          "name": "WheatField"
-        }
-      ]
-    },
-    {
-      "name": "dialogueElements",
-      "objects": [
-        {
-          "name": "dialogue"
-        },
-        {
-          "name": "dialogueBackground"
-        },
-        {
-          "name": "dialogueOptions"
-        },
-        {
-          "name": "DialogueOptionsPointer"
-        }
-      ]
-    }
-  ],
+  "objectsGroups": [],
   "variables": [],
   "instances": [
     {
@@ -1048,14 +998,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
+      "height": 91,
       "keepRatio": true,
       "layer": "UI",
       "name": "dialogueBackground",
       "persistentUuid": "ffda5cba-10d1-459d-a767-9de03ae98c98",
-      "width": 479,
-      "x": 58,
-      "y": 352,
+      "width": 544,
+      "x": 32,
+      "y": 320,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -1068,27 +1018,11 @@
       "height": 14,
       "keepRatio": true,
       "layer": "UI",
-      "name": "dialogue",
-      "persistentUuid": "5e97fa7e-0f02-440b-b32d-dac134915771",
-      "width": 431,
-      "x": 81,
-      "y": 370,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
       "name": "dialogueOptions",
       "persistentUuid": "150c1f49-f0c9-46cf-9c36-a042efab569c",
-      "width": 0,
-      "x": 98,
-      "y": 390,
+      "width": 192,
+      "x": 64,
+      "y": 425,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -1103,8 +1037,8 @@
       "name": "DialogueOptionsPointer",
       "persistentUuid": "9c24099f-5614-45f7-b4c1-afb52dcff102",
       "width": 0,
-      "x": 78,
-      "y": 390,
+      "x": 45,
+      "y": 425,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -1157,6 +1091,90 @@
       "x": 42,
       "y": 117,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "DefaultPanel30",
+      "persistentUuid": "f207ce3d-c308-48a3-8526-270c10ae342c",
+      "width": 256,
+      "x": 320,
+      "y": 416,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "DefaultPanel30",
+      "persistentUuid": "86d433e2-dc7b-4a55-a417-a9438d3f7f51",
+      "width": 256,
+      "x": 32,
+      "y": 416,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 46,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "dialogue",
+      "persistentUuid": "a1b17efe-a8b7-436d-9af7-a0b170901ca7",
+      "width": 480,
+      "x": 64,
+      "y": 338,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "dialogueOptions2",
+      "persistentUuid": "c3894a69-29f9-4c27-97e3-07979cee343b",
+      "width": 0,
+      "x": 256,
+      "y": 384,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 14,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "dialogueOptions2",
+      "persistentUuid": "8fdc0ca4-51fd-494a-9314-c69996912b0d",
+      "width": 192,
+      "x": 352,
+      "y": 425,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2873,7 +2891,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Text\nText",
+      "string": "Text",
       "font": "",
       "textAlignment": "left",
       "characterSize": 12,
@@ -2896,7 +2914,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Text\nText",
+        "text": "Text",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -3197,6 +3215,48 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "dialogueOptions2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 12,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 12,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3267,6 +3327,9 @@
       },
       {
         "objectName": "dialogueOptions"
+      },
+      {
+        "objectName": "dialogueOptions2"
       },
       {
         "objectName": "DefaultPanel1"
@@ -3467,7 +3530,7 @@
           },
           "parameters": [
             "",
-            "introDialogue"
+            "dialogue.json"
           ]
         }
       ]
@@ -3577,6 +3640,17 @@
                 "dialogueElements",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "=",
+                "0"
+              ]
             }
           ]
         }
@@ -3644,6 +3718,12 @@
                 "",
                 "\"textScroll\""
               ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::GoToNextLine"
+              },
+              "parameters": []
             }
           ]
         },
@@ -3669,9 +3749,25 @@
           "actions": [
             {
               "type": {
-                "value": "DialogueTree::GoToNextLine"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
-              "parameters": []
+              "parameters": [
+                "dialogueOptions",
+                "Text",
+                "=",
+                "DialogueTree::Option(0)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogueOptions2",
+                "Text",
+                "=",
+                "DialogueTree::Option(1)"
+              ]
             }
           ]
         },

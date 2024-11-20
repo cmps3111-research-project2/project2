@@ -1519,15 +1519,451 @@
         "name": "community_worker",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "dialogue.json",
+        "kind": "json",
+        "metadata": "{\"localFilePath\":\"dialogue.json\",\"extension\":\".json\"}",
+        "name": "dialogue.json",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walls.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walls.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Door.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../Ruby/Ruby2D/Generic Assets/Basic RPG Pack/16x16/Equip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\Ruby\\Ruby2D\\Generic Assets\\Basic RPG Pack\\16x16\\Equip.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Interior.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Interior.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Ground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ground.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Equip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Equip.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "old_man.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "old_man.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "old_man2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "old_man2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "old_man3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "old_man3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite57",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite58",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite59",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite60",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite61.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite61",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite62",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite63",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite64",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite65.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite65",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite66",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite67.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite67",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite68.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite68",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite69.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite69",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite70.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite70",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite71.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite71",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite72",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite73.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite73",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite74.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite74",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite75.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite75",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite76",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Walls",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "Walls.png",
+        "rowCount": 17,
+        "columnCount": 15,
+        "tileSize": 16,
+        "tilesWithHitBox": "0,15,2,17,4,19,6,21,8,23,10,25,12,27,14,29,59,74,57,72,55,70,53,68,51,66,49,64,47,62,45,60,90,105,92,107,94,109,96,111,98,113,100,115,102,117,104,119,149,164,147,162,207,192,205,190,203,188,143,158,145,160,141,156,139,154,137,152,135,150,180,195,182,197,184,199"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Door",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "Door.png",
+        "rowCount": 4,
+        "columnCount": 6,
+        "tileSize": 16,
+        "tilesWithHitBox": "0,6,2,8,3,9,5,11,17,23,15,21,14,20,12,18"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Interior",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "Interior.png",
+        "rowCount": 14,
+        "columnCount": 13,
+        "tileSize": 16,
+        "tilesWithHitBox": "0,1,14,13,26,27,2,3,16,15,28,29,4,18,5,17,30,31,33,32,19,20,21,34,7,8,9,22,35,37,36,23,24,25,38,51,49,50,61,62,75,88,74,73,60,47,59,46,45,58,57,44,43,56,55,42,40,53,52,39,78,79,92,91,80,81,94,93,95,69,82,70,96,83,98,99,86,85,110,123,97,124,111,112,125,126,113,100,108,121,134,147,146,133,132,145,144,131,130,143,117,104,105,118,106,119,120,107,150,151,138,137,149,162,175,176,177,178,165,152,164,163"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Equipment",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "Equip.png",
+        "rowCount": 5,
+        "columnCount": 5,
+        "tileSize": 16,
+        "tilesWithHitBox": "0,1,2,3,4,8,13,14,18,12,11,10,23"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Ground",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "Ground.png",
+        "rowCount": 6,
+        "columnCount": 8,
+        "tileSize": 16,
+        "tilesWithHitBox": "0,1,2,10,9,8,16,17,18,11,3,4,12,13,5,6,7,15,14,21,22,23,31,30,29,37,39,38,47,46,45,36,28,27,35,26,24,25,32,33,34,42,41,40"
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Walls"
+      },
+      {
+        "objectName": "Door"
+      },
+      {
+        "objectName": "Interior"
+      },
+      {
+        "objectName": "Equipment"
+      },
+      {
+        "objectName": "Ground"
+      }
+    ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Collisions",
+      "objects": [
+        {
+          "name": "Taverns"
+        },
+        {
+          "name": "Barracks"
+        },
+        {
+          "name": "Workshops"
+        },
+        {
+          "name": "Trees"
+        },
+        {
+          "name": "Cliffs_and_Rocks"
+        },
+        {
+          "name": "Keep"
+        },
+        {
+          "name": "RedHouses"
+        },
+        {
+          "name": "Houses"
+        },
+        {
+          "name": "WheatField"
+        },
+        {
+          "name": "CollisionBox"
+        },
+        {
+          "name": "Walls"
+        },
+        {
+          "name": "Door"
+        },
+        {
+          "name": "Equipment"
+        }
+      ]
+    },
+    {
+      "name": "dialogueElements",
+      "objects": [
+        {
+          "name": "dialogue"
+        },
+        {
+          "name": "dialogueBackground"
+        },
+        {
+          "name": "dialogueOptions"
+        },
+        {
+          "name": "DialogueOptionsPointer"
+        },
+        {
+          "name": "DefaultPanel30"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "QuestsCompleted",
@@ -1554,6 +1990,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/overworld"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/elderhome"
     }
   ],
   "externalEvents": [],
