@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 2.9678640778695993,
+    "zoomFactor": 0.9610368693714972,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1123,36 +1123,6 @@
   "objects": [
     {
       "assetStoreId": "",
-      "name": "Grass",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "TexturedGrass.png",
-        "rowCount": 2,
-        "columnCount": 3,
-        "tileSize": 16,
-        "tilesWithHitBox": ""
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "DeadGrass",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "DeadGrass.png",
-        "rowCount": 2,
-        "columnCount": 3,
-        "tileSize": 16,
-        "tilesWithHitBox": ""
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "Taverns",
       "type": "TileMap::SimpleTileMap",
       "variables": [],
@@ -1228,51 +1198,6 @@
     },
     {
       "assetStoreId": "",
-      "name": "CliffWater",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "Cliff-Water.png",
-        "rowCount": 6,
-        "columnCount": 5,
-        "tileSize": 16,
-        "tilesWithHitBox": "0,1,2,7,12,11,10,5,8,3,4,9,17,16,15,20,25,26,27,22,23,18,19,24"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Trees",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "Trees.png",
-        "rowCount": 1,
-        "columnCount": 4,
-        "tileSize": 16,
-        "tilesWithHitBox": "0,1,2,3"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Cliffs_and_Rocks",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "Cliff.png",
-        "rowCount": 9,
-        "columnCount": 7,
-        "tileSize": 16,
-        "tilesWithHitBox": "19,26,20,27,33,34,40,41,17,18,31,38,32,39,24,25,21,28,35,22,29,36,23,30,37,0,7,14,1,8,15,2,9,16,3,4,11,10,42,49,56,43,50,57,44,51,58,52,59,53,60,54,55,61,62"
-      }
-    },
-    {
-      "assetStoreId": "",
       "name": "Keep",
       "type": "TileMap::SimpleTileMap",
       "variables": [],
@@ -1299,21 +1224,6 @@
         "columnCount": 3,
         "tileSize": 16,
         "tilesWithHitBox": "0,1,2,3,6,4,7,5,8,9,10,11"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "WheatField",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "Wheatfield.png",
-        "rowCount": 1,
-        "columnCount": 4,
-        "tileSize": 16,
-        "tilesWithHitBox": ""
       }
     },
     {
@@ -3161,12 +3071,6 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Grass"
-      },
-      {
-        "objectName": "DeadGrass"
-      },
-      {
         "objectName": "Taverns"
       },
       {
@@ -3185,19 +3089,7 @@
         "objectName": "Houses"
       },
       {
-        "objectName": "WheatField"
-      },
-      {
         "objectName": "Shore"
-      },
-      {
-        "objectName": "CliffWater"
-      },
-      {
-        "objectName": "Trees"
-      },
-      {
-        "objectName": "Cliffs_and_Rocks"
       },
       {
         "objectName": "Player"
