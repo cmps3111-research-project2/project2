@@ -1814,6 +1814,15 @@
         "metadata": "",
         "name": "assets\\dialogue.json",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "modern-school tileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "modern-school tileset.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1861,7 +1870,7 @@
         "rowCount": 14,
         "columnCount": 13,
         "tileSize": 16,
-        "tilesWithHitBox": "0,1,14,13,26,27,2,3,16,15,28,29,4,18,5,17,30,31,33,32,19,20,21,34,7,8,9,22,35,37,36,23,24,25,38,51,49,50,61,62,75,88,74,73,60,47,59,46,45,58,57,44,43,56,55,42,40,53,52,39,78,79,92,91,80,81,94,93,95,69,82,70,96,83,98,99,86,85,110,123,97,124,111,112,125,126,113,100,108,121,134,147,146,133,132,145,144,131,130,143,117,104,105,118,106,119,120,107,150,151,138,137,149,162,175,176,177,178,165,152,164,163"
+        "tilesWithHitBox": "0,1,14,13,26,27,2,3,16,15,28,29,4,18,5,17,30,31,33,32,19,20,21,34,7,8,9,22,35,36,23,25,38,51,49,50,61,62,75,88,74,73,60,47,59,46,45,58,57,44,43,56,55,42,40,53,52,39,78,79,92,91,80,81,94,93,95,69,82,70,96,83,98,99,86,85,110,123,97,124,111,112,125,126,113,100,108,121,134,147,146,133,132,145,144,131,130,143,117,104,105,118,106,119,120,107,150,151,138,137,149,162,175,176,177,178,165,152,164,163,24"
       }
     },
     {
@@ -1893,6 +1902,21 @@
         "tileSize": 16,
         "tilesWithHitBox": "0,1,2,10,9,8,16,17,18,11,3,4,12,13,5,6,7,15,14,21,22,23,31,30,29,37,39,38,47,46,45,36,28,27,35,26,24,25,32,33,34,42,41,40"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "school_interior",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "modern-school tileset.png",
+        "rowCount": 96,
+        "columnCount": 96,
+        "tileSize": 8,
+        "tilesWithHitBox": ""
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1909,6 +1933,9 @@
       },
       {
         "objectName": "Equipment"
+      },
+      {
+        "objectName": "school_interior"
       },
       {
         "objectName": "Ground"
@@ -2011,6 +2038,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/elderhome"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/school"
     }
   ],
   "externalEvents": [],
