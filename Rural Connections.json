@@ -1797,6 +1797,23 @@
         "name": "NewSprite76",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Front",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/dialogue.json",
+        "kind": "json",
+        "metadata": "",
+        "name": "assets\\dialogue.json",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
