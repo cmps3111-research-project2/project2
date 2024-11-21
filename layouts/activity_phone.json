@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.4243283944347525,
+    "zoomFactor": 1.6283762407419955,
     "windowMask": false
   },
   "objectsGroups": [
@@ -29,11 +29,109 @@
           "name": "dialogueCollisionOldMan"
         }
       ]
+    },
+    {
+      "name": "Phone_Objects",
+      "objects": [
+        {
+          "name": "Wi_Fi_Text"
+        },
+        {
+          "name": "Wi_Fi_Text_Button"
+        },
+        {
+          "name": "Wi_Fi_Std_Text"
+        },
+        {
+          "name": "Lang_Text"
+        },
+        {
+          "name": "Lang_Std_Text2"
+        },
+        {
+          "name": "Finish_Text"
+        },
+        {
+          "name": "DefaultPanel15"
+        },
+        {
+          "name": "Finish_Panel"
+        },
+        {
+          "name": "Lang_Panel"
+        },
+        {
+          "name": "Finish_Select"
+        }
+      ]
+    },
+    {
+      "name": "WiFi_Screen",
+      "objects": [
+        {
+          "name": "Wi_Fi_Text"
+        },
+        {
+          "name": "Wi_Fi_Text_Button"
+        },
+        {
+          "name": "Wi_Fi_Std_Text"
+        },
+        {
+          "name": "DefaultPanel15"
+        }
+      ]
+    },
+    {
+      "name": "Lang_Screen",
+      "objects": [
+        {
+          "name": "Lang_Panel"
+        },
+        {
+          "name": "Lang_Text"
+        },
+        {
+          "name": "Lang_Std_Text2"
+        }
+      ]
+    },
+    {
+      "name": "Finish_Screen",
+      "objects": [
+        {
+          "name": "Finish_Text"
+        },
+        {
+          "name": "Finish_Panel"
+        },
+        {
+          "name": "Finish_Select"
+        }
+      ]
+    },
+    {
+      "name": "Apps",
+      "objects": [
+        {
+          "name": "PhoneApps"
+        }
+      ]
     }
   ],
   "variables": [
     {
       "name": "CanStartActivity",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "SkipDisabled",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "ActivityComplete",
       "type": "boolean",
       "value": false
     }
@@ -114,11 +212,13 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
+      "locked": true,
       "name": "OldMan",
       "persistentUuid": "f8fd19db-07c2-47d6-9ff5-e12923de2421",
+      "sealed": true,
       "width": 0,
-      "x": 38,
-      "y": 88,
+      "x": 34,
+      "y": 102,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -128,16 +228,16 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 92,
+      "height": 171,
       "keepRatio": true,
-      "layer": "",
+      "layer": "UI",
       "locked": true,
       "name": "dialogueBackground",
       "persistentUuid": "7ec4b1d9-c6d2-4ee6-ad3c-46a38f1074a8",
       "sealed": true,
-      "width": 298,
-      "x": 27,
-      "y": 111,
+      "width": 183,
+      "x": 3,
+      "y": 52,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -145,17 +245,18 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 14,
       "keepRatio": true,
       "layer": "UI",
       "locked": true,
       "name": "dialogueOptions",
       "persistentUuid": "254cefb5-6423-4bbf-8118-955b252a0d27",
       "sealed": true,
-      "width": 0,
-      "x": 55,
-      "y": 164,
+      "width": 41,
+      "x": 19,
+      "y": 119,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -165,16 +266,16 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 33,
+      "height": 26,
       "keepRatio": true,
       "layer": "UI",
       "locked": true,
       "name": "dialogue",
       "persistentUuid": "8819eec7-9fa6-4560-9855-81fa90ae7571",
       "sealed": true,
-      "width": 253,
-      "x": 51,
-      "y": 126,
+      "width": 144,
+      "x": 18,
+      "y": 71,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -280,6 +381,7 @@
       "locked": true,
       "name": "DefaultPanel15",
       "persistentUuid": "2e58de19-18b3-40e6-bdb3-7863c581e44b",
+      "sealed": true,
       "width": 36,
       "x": 183,
       "y": 154,
@@ -298,6 +400,7 @@
       "locked": true,
       "name": "Wi_Fi_Std_Text",
       "persistentUuid": "7ac5b152-67e6-469c-9da8-15fb4a5ec76b",
+      "sealed": true,
       "width": 20,
       "x": 191,
       "y": 160,
@@ -316,28 +419,11 @@
       "locked": true,
       "name": "Lang_Text",
       "persistentUuid": "39e9fe8f-6858-48d0-9001-9bc3b6615d16",
+      "sealed": true,
       "width": 88,
       "x": 136,
       "y": 34,
       "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "locked": true,
-      "name": "DefaultPanel15",
-      "persistentUuid": "56b1a619-c2c6-4df5-8aa0-506ef2c03f14",
-      "width": 83,
-      "x": 136,
-      "y": 75,
-      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -352,28 +438,11 @@
       "locked": true,
       "name": "Lang_Std_Text2",
       "persistentUuid": "6990d39d-b392-4452-b1e4-bc932ff68ee7",
+      "sealed": true,
       "width": 61,
       "x": 147,
       "y": 82,
       "zOrder": 25,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "locked": true,
-      "name": "DefaultPanel15",
-      "persistentUuid": "c136074f-05fb-49d9-934b-3af2954f4b65",
-      "width": 83,
-      "x": 136,
-      "y": 111,
-      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -403,12 +472,135 @@
       "height": 15,
       "keepRatio": true,
       "layer": "",
+      "locked": true,
       "name": "Finish_Text",
       "persistentUuid": "94f5aadc-2a0b-4f27-81a8-e4b2f603b260",
+      "sealed": true,
       "width": 50,
       "x": 153,
       "y": 93,
       "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 34,
+      "keepRatio": true,
+      "layer": "",
+      "locked": true,
+      "name": "Lang_Panel",
+      "persistentUuid": "a2527b39-f17d-405c-a33c-d3abf0cfead7",
+      "sealed": true,
+      "width": 83,
+      "x": 136,
+      "y": 73,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 36,
+      "keepRatio": true,
+      "layer": "",
+      "locked": true,
+      "name": "Lang_Panel",
+      "persistentUuid": "6545469b-96fa-4bba-9b1e-79a3b9e9d397",
+      "sealed": true,
+      "width": 83,
+      "x": 136,
+      "y": 111,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "locked": true,
+      "name": "PhoneApps",
+      "persistentUuid": "6b52011e-37b9-47f0-bf29-105c796678b5",
+      "sealed": true,
+      "width": 0,
+      "x": 136,
+      "y": 34,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":34,\"tileHeight\":34,\"dimX\":2,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,-1],[-1,2],[-1,-1],[4,-1]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "locked": true,
+      "name": "PhoneApps",
+      "persistentUuid": "e4e80230-c837-4699-9fc9-ab7f42d0ea2d",
+      "sealed": true,
+      "width": 0,
+      "x": 187,
+      "y": 33,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":34,\"tileHeight\":34,\"dimX\":1,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[1],[-1],[-1],[6]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 29,
+      "keepRatio": true,
+      "layer": "",
+      "locked": true,
+      "name": "Finish_Panel",
+      "persistentUuid": "b09c776d-494f-4932-b9ac-e555be01b337",
+      "sealed": true,
+      "width": 81,
+      "x": 139,
+      "y": 136,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 15,
+      "keepRatio": true,
+      "layer": "",
+      "locked": true,
+      "name": "Finish_Select",
+      "persistentUuid": "a25f9627-2d8c-4cb3-b0e4-71264e285ff2",
+      "width": 56,
+      "x": 151,
+      "y": 144,
+      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1483,7 +1675,7 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "What's a language?",
+        "text": "Imagine a lang is here",
         "opacity": 255,
         "scale": 1,
         "fontSize": 20,
@@ -1507,6 +1699,25 @@
         "scale": 1,
         "fontSize": 20,
         "tint": "255;255;255",
+        "bitmapFontResourceName": "square_6x6.xml",
+        "textureAtlasResourceName": "square_6x6.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Finish_Select",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Click to exit    activity",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "0;0;0",
         "bitmapFontResourceName": "square_6x6.xml",
         "textureAtlasResourceName": "square_6x6.png",
         "align": "left",
@@ -1543,6 +1754,9 @@
       },
       {
         "objectName": "Wi_Fi_Text_Button"
+      },
+      {
+        "objectName": "Finish_Select"
       },
       {
         "objectName": "Wi_Fi_Std_Text"
@@ -1582,6 +1796,14 @@
             "value": "Cache"
           },
           "parameters": [
+            "Phone_Objects"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
             "CollisionBox"
           ]
         },
@@ -1611,7 +1833,7 @@
             "value": "DialogueTree::StartDialogueFromBranch"
           },
           "parameters": [
-            "\"Start\""
+            "\"elder_setup_instructions\""
           ]
         },
         {
@@ -1644,14 +1866,6 @@
           "parameters": [
             "1"
           ]
-        },
-        {
-          "type": {
-            "value": "DialogueTree::StartDialogueFromBranch"
-          },
-          "parameters": [
-            "\"elder_setup_instructions\""
-          ]
         }
       ]
     },
@@ -1675,6 +1889,254 @@
             "value": "DialogueTree::IsCommandCalled"
           },
           "parameters": [
+            "\"select_wifi\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Apps"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "WiFi_Screen",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "SkipDisabled",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "DefaultPanel15",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::GoToNextLine"
+          },
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"select_lang\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "WiFi_Screen"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Lang_Screen",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Lang_Panel",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::GoToNextLine"
+          },
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"finish_screen\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Lang_Screen"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Finish_Screen",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "ActivityComplete",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Finish_Panel",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "ActivityComplete",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"elder_end\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
             "\"activity_end\""
           ]
         }
@@ -1688,15 +2150,71 @@
         },
         {
           "type": {
-            "value": "ZoomCamera"
+            "value": "Wait"
           },
           "parameters": [
-            "",
-            "1",
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "2",
+            "\"Circular\"",
+            "\"Forward\"",
             "",
             ""
           ]
         },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "QuestsCompleted",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "ElderComplete",
+            "True",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"Overworld\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsDialogueLineType"
+          },
+          "parameters": [
+            "\"text\""
+          ]
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -1714,21 +2232,7 @@
           },
           "parameters": []
         }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::IsDialogueLineType"
-          },
-          "parameters": [
-            "\"text\""
-          ]
-        }
       ],
-      "actions": [],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1852,6 +2356,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1887,6 +2392,16 @@
           "parameters": [
             "",
             "Space"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "SkipDisabled",
+            "False",
+            ""
           ]
         }
       ],
@@ -2225,6 +2740,10 @@
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
+      "name": "PixelPerfectTopDownMovement",
+      "type": "PixelPerfectMovement::PixelPerfectTopDownMovement"
+    },
+    {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
     },
@@ -2233,8 +2752,16 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }

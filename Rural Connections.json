@@ -3031,6 +3031,38 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "737749bf5886f6e45ce0794fec62f07220f875b4e60df80cd21b02acfdb10260",
+      "bottomMargin": 16,
+      "height": 48,
+      "leftMargin": 16,
+      "name": "Finish_Panel",
+      "rightMargin": 16,
+      "texture": "Default-panel (16).png",
+      "tiled": false,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "737749bf5886f6e45ce0794fec62f07220f875b4e60df80cd21b02acfdb10260",
+      "bottomMargin": 16,
+      "height": 48,
+      "leftMargin": 16,
+      "name": "Lang_Panel",
+      "rightMargin": 16,
+      "texture": "Default-panel (16).png",
+      "tiled": false,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -3076,6 +3108,12 @@
       },
       {
         "objectName": "DefaultPanel15"
+      },
+      {
+        "objectName": "Finish_Panel"
+      },
+      {
+        "objectName": "Lang_Panel"
       },
       {
         "objectName": "Player"
@@ -3171,6 +3209,16 @@
       "name": "textScrollSpeed",
       "type": "number",
       "value": 0.5
+    },
+    {
+      "name": "ElderComplete",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "TeacherComplete",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

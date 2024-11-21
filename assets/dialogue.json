@@ -72,7 +72,7 @@
 	{
 		"title": "elder_setup_instructions",
 		"tags": "",
-		"body": "Elder: \"Thank you, dear. My eyes aren't as sharp as they used to be, and these screens seem to get smaller and smaller! My grandson says it's just a few simple steps to get this up and running.\"\n\n[[Select language for the device.|step_1]]",
+		"body": "Elder: \"Thank you, dear. My eyes aren't as sharp as they used to be! My grandson says it's just a few simple steps to get this up and running.\"\n\n[[Select language for the device.|step_1]]",
 		"position": {
 			"x": 588,
 			"y": -219
@@ -82,7 +82,7 @@
 	{
 		"title": "step_1",
 		"tags": "",
-		"body": " \nSelect a Wi-Fi connection for the device.\nSelect a language for the device.\nFinished!",
+		"body": " <<select_wifi>> \nYou will have to use your mouse pointer for this activity. Select a Wi-Fi connection for the device.\n <<select_lang>>\nSelect a language for the device.\n<<finish_screen>> \nFinished!",
 		"position": {
 			"x": 876,
 			"y": -223
@@ -176,6 +176,26 @@
 		"position": {
 			"x": 34,
 			"y": 597
+		},
+		"colorID": 0
+	},
+	{
+		"title": "activity_completed",
+		"tags": "",
+		"body": " \nActivity completed! What's next?",
+		"position": {
+			"x": 53,
+			"y": -221
+		},
+		"colorID": 0
+	},
+	{
+		"title": "you_already_did_me",
+		"tags": "",
+		"body": "Thanks for the help, traveller! You're amazing!",
+		"position": {
+			"x": -180,
+			"y": -222
 		},
 		"colorID": 0
 	}

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 2.060679135269577,
+    "zoomFactor": 1.0615714305220263,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2756,13 +2756,71 @@
             "dialogue",
             ""
           ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
         },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "QuestsCompleted",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "DialogueTree::StartDialogueFromBranch"
           },
           "parameters": [
             "\"intro\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "QuestsCompleted",
+            ">=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"activity_completed\""
           ]
         }
       ]
@@ -2823,6 +2881,72 @@
         {
           "type": {
             "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "dialogueCollisions",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "dialogueState",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::IsDialogueRunning"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "dialogueState",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::CompleteClippedTextScrolling"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "DialogueTree::StopRunningDialogue"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
             "value": "DialogueTree::IsDialogueRunning"
           },
           "parameters": []
@@ -2872,6 +2996,12 @@
                 "dialogueElements",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "DialogueTree::ClearState"
+              },
+              "parameters": []
             }
           ],
           "events": [
@@ -2897,6 +3027,16 @@
                     "dialogueCollisionFarmer",
                     "",
                     "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ElderComplete",
+                    "False",
                     ""
                   ]
                 }
@@ -2941,9 +3081,76 @@
                   },
                   "parameters": [
                     "Player",
+                    "dialogueCollisionFarmer",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ElderComplete",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"you_already_did_me\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueState",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueState",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
                     "dialogueCollisionTeacher",
                     "",
                     "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "TeacherComplete",
+                    "False",
                     ""
                   ]
                 }
@@ -2955,6 +3162,63 @@
                   },
                   "parameters": [
                     "\"Start_Teacher\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueState",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueState",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "dialogueCollisionTeacher",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "TeacherComplete",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"you_already_did_me\""
                   ]
                 },
                 {
