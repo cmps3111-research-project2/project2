@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Elder: Hi, I'm so glad you could make it!\nElder: Please, feel at home and take a seat.\nElder: So I have this gadget that my relative gave me.\nElder: And it would be really great if you could assist.\n\n[[Take a look |TakeALook]]\n[[No thanks |NoThanks]]",
+		"position": {
+			"x": 202,
+			"y": 502
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TakeALook",
+		"tags": "",
+		"body": "<<start_activity>>  \nElder: Here, take a look for yourself.",
+		"position": {
+			"x": 205,
+			"y": 13
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NoThanks",
+		"tags": "",
+		"body": "...\nThe Elder stares, unaccepting to your response.\n\n[[Respond |ElderAwait]]\n[[No thanks |NoThanks]]",
+		"position": {
+			"x": 740,
+			"y": 477
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ElderAwait",
+		"tags": "",
+		"body": "Elder: It would be really great if you could assist.\n...\n\n[[Take a look |TakeALook]]\n[[No thanks |NoThanks]]",
+		"position": {
+			"x": 608,
+			"y": 4
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Press_S_to_Start",
+		"tags": "",
+		"body": " \nElder: Press \"S\" to start the activity.",
+		"position": {
+			"x": 524,
+			"y": 448
+		},
+		"colorID": 0
+	}
+]

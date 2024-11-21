@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "Overworld",
   "name": "Overworld",
-  "r": 209,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 0,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -18,10 +18,22 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 2.9678640778695993,
+    "zoomFactor": 2.060679135269577,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "dialogueCollisions",
+      "objects": [
+        {
+          "name": "dialogueCollisionTeacher"
+        },
+        {
+          "name": "dialogueCollisionFarmer"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -345,24 +357,6 @@
           "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":36,\"dimY\":32,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,0,0,-1,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,0,0,-1,-1,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,0,0,0,0,-1,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,0,0,0,-1,0,0,-1,0,0,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,0,0,0,0,-1,-1,-1,0,0,0,0,-1,-1,-1,-1,-1,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,0,1,0,-1,-1,-1,-1,-1,-1,0,0,-1,-1,-1,-1,-1,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1],[-1,-1,-1,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1,-1,-1],[-1,-1,-1,0,-1,-1,0,0,2,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1],[-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,-1,-1],[-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,0,0,0,0,0,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,-1,0,0,0,0,0,2,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,1,0,0,0,0,0,2,0,-1,0,0,0,0,-1,-1,-1,-1,-1,0,0,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,-1,0,-1,0,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,0],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,2,0,0,-1,0,0,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,-1,0,-1,0,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,2,0,0,0,0,0,0,-1,0,-1,0,-1,-1,-1,-1,0,0,0,0,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,1,0,-1,0,0,-1,-1,-1,-1,-1,0,-1,0,0,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,-1,-1,0,-1,0,-1,-1,-1,-1,-1,-1,0,-1,0,0,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
         }
       ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "locked": true,
-      "name": "Player",
-      "persistentUuid": "cc071454-99e4-476a-96ff-e21166973d5d",
-      "sealed": true,
-      "width": 0,
-      "x": 290,
-      "y": 246,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
       "initialVariables": []
     },
     {
@@ -958,14 +952,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 91,
+      "height": 160,
       "keepRatio": true,
       "layer": "UI",
       "name": "dialogueBackground",
       "persistentUuid": "ffda5cba-10d1-459d-a767-9de03ae98c98",
       "width": 544,
       "x": 32,
-      "y": 320,
+      "y": 288,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -982,7 +976,7 @@
       "persistentUuid": "5e97fa7e-0f02-440b-b32d-dac134915771",
       "width": 431,
       "x": 64,
-      "y": 338,
+      "y": 320,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -998,7 +992,7 @@
       "persistentUuid": "150c1f49-f0c9-46cf-9c36-a042efab569c",
       "width": 0,
       "x": 64,
-      "y": 370,
+      "y": 392,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -1014,7 +1008,7 @@
       "persistentUuid": "9c24099f-5614-45f7-b4c1-afb52dcff102",
       "width": 0,
       "x": 48,
-      "y": 370,
+      "y": 392,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -1027,7 +1021,7 @@
       "height": 32,
       "keepRatio": true,
       "layer": "",
-      "name": "dialogueCollision",
+      "name": "dialogueCollisionTeacher",
       "persistentUuid": "2e412381-f41c-477f-ba5a-2fe8c599b9af",
       "width": 64,
       "x": 300,
@@ -1050,23 +1044,6 @@
       "x": 85,
       "y": 123,
       "zOrder": 27,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "dialogueCollision",
-      "persistentUuid": "b8be24fa-2a57-4fdf-9558-2833da50c4d8",
-      "width": 64,
-      "x": 42,
-      "y": 117,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1115,6 +1092,55 @@
       "x": 83,
       "y": 118,
       "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "dialogueCollisionFarmer",
+      "persistentUuid": "fe67a3ca-bd16-467a-ac5e-3a2d84e54b04",
+      "width": 64,
+      "x": 50,
+      "y": 116,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Transition",
+      "persistentUuid": "2f09638c-f39b-4daf-8485-cf4e8e8bccd7",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "88563f0b-b489-430e-8b79-d7396438d785",
+      "width": 0,
+      "x": 290,
+      "y": 255,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1319,623 +1345,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "5e6706f25e78e7fec8b9d3d2d66e7cf37f3fc42332e46a7d302e770cefa907fd",
-      "name": "Player",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 1,
-          "OffsetX": 0,
-          "OffsetY": 0
-        },
-        {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera",
-          "LeftwardSpeed": 0.9,
-          "RightwardSpeed": 0.9,
-          "UpwardSpeed": 0.9,
-          "DownwardSpeed": 0.9,
-          "FollowOnX": true,
-          "FollowOnY": true,
-          "FollowFreeAreaLeft": 0,
-          "FollowFreeAreaRight": 0,
-          "FollowFreeAreaTop": 0,
-          "FollowFreeAreaBottom": 0,
-          "CameraOffsetX": 0,
-          "CameraOffsetY": 0,
-          "CameraDelay": 0,
-          "ForecastTime": 0,
-          "ForecastHistoryDuration": 0,
-          "LogLeftwardSpeed": 2.0247e-320,
-          "LogRightwardSpeed": 2.0247e-320,
-          "LogDownwardSpeed": 2.0247e-320,
-          "LogUpwardSpeed": 2.0247e-320,
-          "DelayedCenterX": 2.0247e-320,
-          "DelayedCenterY": 2.0247e-320,
-          "ForecastHistoryMeanX": 2.0247e-320,
-          "ForecastHistoryMeanY": 2.0247e-320,
-          "ForecastHistoryVarianceX": 2.0247e-320,
-          "ForecastHistoryCovariance": 2.0247e-320,
-          "ForecastHistoryLinearA": 2.0247e-320,
-          "ForecastHistoryLinearB": 2.0247e-320,
-          "ForecastedX": 2.0247e-320,
-          "ForecastedY": 2.0247e-320,
-          "ProjectedNewestX": 2.0247e-320,
-          "ProjectedNewestY": 2.0247e-320,
-          "ProjectedOldestX": 2.0247e-320,
-          "ProjectedOldestY": 2.0247e-320,
-          "ForecastHistoryVarianceY": 2.0247e-320,
-          "Index": 2.0247e-320,
-          "CameraDelayCatchUpSpeed": 0,
-          "CameraExtraDelay": 2.0247e-320,
-          "WaitingSpeedXMax": 2.0247e-320,
-          "WaitingSpeedYMax": 2.0247e-320,
-          "WaitingEnd": 2.0247e-320,
-          "CameraDelayCatchUpDuration": 2.0247e-320,
-          "LeftwardSpeedMax": 9000,
-          "RightwardSpeedMax": 9000,
-          "UpwardSpeedMax": 9000,
-          "DownwardSpeedMax": 9000,
-          "OldX": 9000.000000007454,
-          "OldY": 9000.000000007454,
-          "IsCalledManually": false
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "allowDiagonals": false,
-          "rotateObject": false,
-          "acceleration": 400,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "viewpoint": "TopDown"
-        }
-      ],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Idle",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Down",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1667,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 4_Down_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 4_Down_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 4_Down_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Left",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1667,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 4_Left_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 4_Left_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 4_Left_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Right",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1667,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 4_Right_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 4_Right_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 4_Right_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Up",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.1667,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 4_Up_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 4_Up_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Generic Character 4_Up_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 0,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "5e6706f25e78e7fec8b9d3d2d66e7cf37f3fc42332e46a7d302e770cefa907fd",
       "name": "NPC1",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2043,22 +1452,6 @@
       "behaviors": []
     },
     {
-      "assetStoreId": "b5a470b8753a664805d44ec3be98ff209fae6eb591ba0b621b6b1bc2bf7381c9",
-      "bottomMargin": 16,
-      "height": 48,
-      "leftMargin": 16,
-      "name": "dialogueBackground",
-      "rightMargin": 16,
-      "texture": "Default-panel (14).png",
-      "tiled": false,
-      "topMargin": 16,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 48,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "assetStoreId": "b7b916614570780a0e1ee277966a3cd49566347fde75ac0c0c7a95554156b4e9",
       "bottomMargin": 12,
       "height": 48,
@@ -2098,22 +1491,6 @@
       "name": "DefaultPanel14",
       "rightMargin": 16,
       "texture": "Default-panel (15).png",
-      "tiled": false,
-      "topMargin": 16,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 48,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "737749bf5886f6e45ce0794fec62f07220f875b4e60df80cd21b02acfdb10260",
-      "bottomMargin": 16,
-      "height": 48,
-      "leftMargin": 16,
-      "name": "DefaultPanel15",
-      "rightMargin": 16,
-      "texture": "Default-panel (16).png",
       "tiled": false,
       "topMargin": 16,
       "type": "PanelSpriteObject::PanelSprite",
@@ -2782,151 +2159,6 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "dialogue",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 12,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 12,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "dialogueOptions",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 12,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 12,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "876c096f2525e4793e095052f0176702c9813a6f3282f1a779e43c102a65bcc8",
-      "name": "DialogueOptionsPointer",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Chevron-Arrow-Right",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Chevron-Arrow-Right.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 9,
-                        "y": 0
-                      },
-                      {
-                        "x": 9,
-                        "y": 14
-                      },
-                      {
-                        "x": 0,
-                        "y": 14
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
       "name": "NewText",
       "smoothed": true,
       "type": "TextObject::Text",
@@ -3029,7 +2261,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "dialogueCollision",
+      "name": "dialogueCollisionTeacher",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3155,6 +2387,75 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "dialogueCollisionFarmer",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite56",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3200,9 +2501,6 @@
         "objectName": "Cliffs_and_Rocks"
       },
       {
-        "objectName": "Player"
-      },
-      {
         "objectName": "NPC1"
       },
       {
@@ -3218,15 +2516,6 @@
         "objectName": "DefaultPanel12"
       },
       {
-        "objectName": "dialogueBackground"
-      },
-      {
-        "objectName": "dialogue"
-      },
-      {
-        "objectName": "dialogueOptions"
-      },
-      {
         "objectName": "DefaultPanel1"
       },
       {
@@ -3234,9 +2523,6 @@
       },
       {
         "objectName": "DefaultPanel14"
-      },
-      {
-        "objectName": "DefaultPanel15"
       },
       {
         "objectName": "DefaultPanel16"
@@ -3320,16 +2606,16 @@
         "objectName": "NewBitmapText"
       },
       {
-        "objectName": "DialogueOptionsPointer"
-      },
-      {
         "objectName": "NewText"
       },
       {
         "objectName": "CollisionBox"
       },
       {
-        "objectName": "dialogueCollision"
+        "objectName": "dialogueCollisionTeacher"
+      },
+      {
+        "objectName": "dialogueCollisionFarmer"
       }
     ]
   },
@@ -3394,7 +2680,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "dialogueCollision"
+            "dialogueCollisions"
           ]
         },
         {
@@ -3558,17 +2844,6 @@
           "parameters": [
             "dialogueElements"
           ]
-        },
-        {
-          "type": {
-            "value": "TopDownMovementBehavior::MaxSpeed"
-          },
-          "parameters": [
-            "Player",
-            "TopDownMovement",
-            "=",
-            "100"
-          ]
         }
       ],
       "events": [
@@ -3581,7 +2856,7 @@
               },
               "parameters": [
                 "Player",
-                "dialogueCollision",
+                "dialogueCollisions",
                 "",
                 "",
                 ""
@@ -3619,7 +2894,54 @@
                   },
                   "parameters": [
                     "Player",
-                    "dialogueCollision",
+                    "dialogueCollisionFarmer",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "\"Overworld_Elder\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueState",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "dialogueState",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "dialogueCollisionTeacher",
                     "",
                     "",
                     ""
@@ -3633,17 +2955,6 @@
                   },
                   "parameters": [
                     "\"Start_Teacher\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TopDownMovementBehavior::MaxSpeed"
-                  },
-                  "parameters": [
-                    "Player",
-                    "TopDownMovement",
-                    "=",
-                    "0"
                   ]
                 },
                 {
@@ -3663,25 +2974,177 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "This is so the user can skip the text that is being scrolled without having to wait through it all\n"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "DialogueTree::HasClippedTextScrollingCompleted"
+            "value": "KeyReleased"
           },
-          "parameters": []
+          "parameters": [
+            "",
+            "Space"
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "TopDownMovementBehavior::MaxSpeed"
+            "value": "DialogueTree::GoToNextLine"
+          },
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"switch_elder_scene\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
           },
           "parameters": [
             "Player",
             "TopDownMovement",
-            "=",
-            "100"
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::CompleteClippedTextScrolling"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"ElderHome\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DialogueTree::IsCommandCalled"
+          },
+          "parameters": [
+            "\"switch_teacher_scene\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::CompleteClippedTextScrolling"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "PushScene"
+          },
+          "parameters": [
+            "",
+            "\"School\""
           ]
         }
       ]
@@ -3748,34 +3211,6 @@
                 "",
                 "\"textScroll\""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyReleased"
-              },
-              "parameters": [
-                "",
-                "Space"
-              ]
-            },
-            {
-              "type": {
-                "value": "DialogueTree::HasClippedTextScrollingCompleted"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "DialogueTree::GoToNextLine"
-              },
-              "parameters": []
             }
           ]
         },
@@ -3896,6 +3331,16 @@
             "DialogueOptionsPointer",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "no"
+          ]
         }
       ],
       "events": [
@@ -3923,14 +3368,12 @@
             },
             {
               "type": {
-                "value": "MettreXY"
+                "value": "MettreY"
               },
               "parameters": [
                 "DialogueOptionsPointer",
                 "=",
-                "78",
-                "=",
-                "390"
+                "394"
               ]
             }
           ]
@@ -3959,14 +3402,12 @@
             },
             {
               "type": {
-                "value": "MettreXY"
+                "value": "MettreY"
               },
               "parameters": [
                 "DialogueOptionsPointer",
                 "=",
-                "78",
-                "=",
-                "410"
+                "407"
               ]
             }
           ]
@@ -3990,6 +3431,16 @@
                 "value": "DialogueTree::ConfirmSelectOption"
               },
               "parameters": []
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "yes"
+              ]
             }
           ]
         },
@@ -4048,6 +3499,15 @@
       "actions": [
         {
           "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+          },
+          "parameters": [
+            "Player",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
@@ -4076,6 +3536,15 @@
       "actions": [
         {
           "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+          },
+          "parameters": [
+            "Player",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
@@ -4104,6 +3573,15 @@
       "actions": [
         {
           "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+          },
+          "parameters": [
+            "Player",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
@@ -4130,6 +3608,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+          },
+          "parameters": [
+            "Player",
+            "Animation"
+          ]
+        },
         {
           "type": {
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -4160,13 +3647,11 @@
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
           },
           "parameters": [
             "Player",
-            "Animation",
-            "=",
-            "\"Idle\""
+            "Animation"
           ]
         }
       ]
@@ -4292,6 +3777,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
     },
     {
       "name": "Flippable",
