@@ -110,12 +110,12 @@
 		"colorID": 2
 	},
 	{
-		"title": "troubleshoot_start",
+		"title": "workstation_assembly",
 		"tags": "",
-		"body": "You pull out your toolkit and diagnostic USB, ready to fix the issues.\n\n[[Tackle the corrupted files first.|corrupted_files]]",
+		"body": "Teacher: Here is all the equipment we got in.\nIan: Cool. My partner will be showing you how to assemble the equipment\nDrag and drop the equipment onto the desk to assemble the workstation.\nIan: Let's start with dragging the Tower Unit onto the table.\n<<place_tower>> \nIan: Good job. Now, drag the Monitor onto the table.\n<<place_monitor>> \nIan: Great. Now, drag the Keyboard and Mouse onto the table.\n<<place_peripherals>>",
 		"position": {
-			"x": 301,
-			"y": 602
+			"x": 334,
+			"y": 585
 		},
 		"colorID": 8
 	},

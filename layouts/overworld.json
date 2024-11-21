@@ -1343,67 +1343,6 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "5e6706f25e78e7fec8b9d3d2d66e7cf37f3fc42332e46a7d302e770cefa907fd",
-      "name": "NPC1",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Idle2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 10,
-                        "y": 0
-                      },
-                      {
-                        "x": 10,
-                        "y": 11
-                      },
-                      {
-                        "x": 0,
-                        "y": 11
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "bfabac7f4701989359b7d48490f61e5acae297f240f3d607cc8300be39e0c68a",
       "bottomMargin": 12,
       "height": 48,
@@ -2499,9 +2438,6 @@
       },
       {
         "objectName": "Cliffs_and_Rocks"
-      },
-      {
-        "objectName": "NPC1"
       },
       {
         "objectName": "NPC2"

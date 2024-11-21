@@ -2158,6 +2158,42 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Characters/Modern/7f91892486c75e2f22ab565e3a2052bd5a751d3900b7c59d005ed0f10c3569af_Generic Character 1_Up_3.png",
           "name": "Generic Character 1_Up_3.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/monitor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\monitor.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/keyboard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\keyboard.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/mouse.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\mouse.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pctower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\pctower.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2534,6 +2570,8 @@
           "IsCalledManually": false
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": false,
           "angleOffset": 0,
@@ -2543,9 +2581,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 150,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -3063,6 +3099,67 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "5e6706f25e78e7fec8b9d3d2d66e7cf37f3fc42332e46a7d302e770cefa907fd",
+      "name": "NPC1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Idle2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 10,
+                        "y": 0
+                      },
+                      {
+                        "x": 10,
+                        "y": 11
+                      },
+                      {
+                        "x": 0,
+                        "y": 11
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3117,6 +3214,9 @@
       },
       {
         "objectName": "Player"
+      },
+      {
+        "objectName": "NPC1"
       }
     ]
   },
@@ -3237,6 +3337,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/school"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/workstation_activity"
     }
   ],
   "externalEvents": [],
