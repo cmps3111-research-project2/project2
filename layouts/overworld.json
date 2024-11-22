@@ -2129,7 +2129,6 @@
             "text": "8 / 16",
             "font": "",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 14,
             "color": "255;255;255"
           }
@@ -2192,7 +2191,6 @@
         "text": "Text",
         "font": "",
         "textAlignment": "left",
-        "verticalTextAlignment": "top",
         "characterSize": 20,
         "color": "0;0;0"
       }
@@ -2268,9 +2266,9 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "PathfindingObstacle",
           "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "isFolded": true,
           "cost": 2,
           "impassable": true
         }
@@ -2398,9 +2396,9 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "PathfindingObstacle",
           "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "isFolded": true,
           "cost": 2,
           "impassable": true
         }

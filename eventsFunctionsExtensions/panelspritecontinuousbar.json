@@ -698,7 +698,6 @@
       "defaultName": "ResourceBar",
       "description": "A bar that represents a resource in the game (health, mana, ammo, etc).",
       "fullName": "Resource bar (continuous)",
-      "isUsingLegacyInstancesRenderer": true,
       "name": "PanelSpriteContinuousBar",
       "eventsFunctions": [
         {
@@ -2462,7 +2461,6 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "center",
-            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }
