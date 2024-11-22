@@ -158,5 +158,15 @@
 			"y": 588
 		},
 		"colorID": 0
+	},
+	{
+		"title": "workstation_activity_end",
+		"tags": "",
+		"body": "Thank you so much for your help! It was much needed! I'm sure the class will appreciate it!",
+		"position": {
+			"x": 855,
+			"y": 581
+		},
+		"colorID": 0
 	}
 ]

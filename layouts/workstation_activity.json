@@ -2205,16 +2205,6 @@
             "value": "DialogueTree::GoToNextLine"
           },
           "parameters": []
-        },
-        {
-          "type": {
-            "value": "DebuggerTools::ConsoleLog"
-          },
-          "parameters": [
-            "ToString(ComponentsToAdd)",
-            "\"info\"",
-            ""
-          ]
         }
       ]
     },
@@ -2245,6 +2235,22 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"workstation_activity_end\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
         {
           "type": {
             "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
