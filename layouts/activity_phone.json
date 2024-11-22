@@ -612,22 +612,6 @@
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
-      "persistentUuid": "5df4bea8-9c98-4cf3-9927-067118899b23",
-      "width": 0,
-      "x": 192,
-      "y": 121,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
       "persistentUuid": "456d6ac1-34fd-4e47-86da-5c3fd8aeb9dd",
       "width": 0,
       "x": 320,
@@ -644,11 +628,28 @@
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
-      "persistentUuid": "d048a487-c24f-439f-90c4-cef78a3dc616",
+      "persistentUuid": "188c59b7-2161-4bc7-a7f9-601fc3079d24",
       "width": 0,
-      "x": 193,
-      "y": 127,
-      "zOrder": 33,
+      "x": 320,
+      "y": 240,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "d27190c6-6085-4f08-95fc-c734c0f7aa0e",
+      "width": 78,
+      "x": 138,
+      "y": 111,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2728,6 +2729,14 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "HasAnyTouchOrMouseStarted"
+          },
+          "parameters": [
+            ""
+          ]
+        },
         {
           "type": {
             "value": "SourisSurObjet"
