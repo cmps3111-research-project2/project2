@@ -1837,7 +1837,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite78.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite78.png\"}",
         "name": "NewSprite77",
         "smoothed": false,
         "userAdded": false
@@ -2201,6 +2201,42 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "dialogueCollisionTeacher",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite81.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite80",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/KeyboardCollisionBox.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/KeyboardCollisionBox.png\"}",
+        "name": "KeyboardCollisionBox",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite82.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite81",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite83.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite82",
         "smoothed": false,
         "userAdded": false
       }

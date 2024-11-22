@@ -112,10 +112,10 @@
 	{
 		"title": "workstation_assembly",
 		"tags": "",
-		"body": "Teacher: Here is all the equipment we got in.\nIan: Cool. My partner will be showing you how to assemble the equipment\n<<switch_scene>> ",
+		"body": "Teacher: Here is all the equipment we got in.\nIan: Cool. My partner will be showing you how to assemble the equipment\n<<switch_scene>>\nHere we go!\n",
 		"position": {
 			"x": 302,
-			"y": 596
+			"y": 594
 		},
 		"colorID": 8
 	},
