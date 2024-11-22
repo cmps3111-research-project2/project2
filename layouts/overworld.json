@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.0615714305220263,
+    "zoomFactor": 1.0269425874981348,
     "windowMask": false
   },
   "objectsGroups": [
@@ -933,14 +933,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 85,
+      "height": 21,
       "keepRatio": true,
       "layer": "UI",
-      "locked": true,
       "name": "NewBitmapText",
       "persistentUuid": "d164848d-ec69-4166-a2c7-c5776b665f6b",
-      "sealed": true,
-      "width": 290,
+      "width": 288,
       "x": 32,
       "y": 75,
       "zOrder": 21,
@@ -2083,13 +2081,13 @@
       "effects": [],
       "behaviors": [],
       "content": {
-        "text": "This text use the default bitmap font.\nUse a custom Bitmap Font to create your own texts.",
+        "text": "Quests to Complete",
         "opacity": 255,
-        "scale": 1,
+        "scale": 3,
         "fontSize": 20,
         "tint": "255;255;255",
-        "bitmapFontResourceName": "",
-        "textureAtlasResourceName": "",
+        "bitmapFontResourceName": "square_6x6.xml",
+        "textureAtlasResourceName": "square_6x6.png",
         "align": "left",
         "wordWrap": true
       }
