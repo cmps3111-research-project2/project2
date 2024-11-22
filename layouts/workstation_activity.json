@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.168756882148192,
+    "zoomFactor": 1.4260755261380886,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,7 +33,6 @@
       "locked": true,
       "name": "Ground",
       "persistentUuid": "0ffd139c-6138-427e-afe2-1a490f56c7a9",
-      "sealed": true,
       "width": 0,
       "x": 0,
       "y": 0,
@@ -53,10 +52,8 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "locked": true,
       "name": "Walls",
       "persistentUuid": "eeb599a1-5a08-4c43-8080-740208684668",
-      "sealed": true,
       "width": 0,
       "x": 0,
       "y": 192,
@@ -65,7 +62,7 @@
       "stringProperties": [
         {
           "name": "tilemap",
-          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":39,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137],[152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152]]}]}"
+          "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":39,\"dimY\":14,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137],[152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,186,186,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152],[152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152],[152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152,152],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,186,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
         }
       ],
       "initialVariables": []
@@ -77,7 +74,7 @@
       "height": 64,
       "keepRatio": true,
       "layer": "",
-      "name": "monitor",
+      "name": "monitorOutline",
       "persistentUuid": "90e14101-29fe-4b9e-9dd3-eb0104b480d7",
       "width": 77,
       "x": 29,
@@ -94,7 +91,7 @@
       "height": 67,
       "keepRatio": true,
       "layer": "",
-      "name": "pctower",
+      "name": "pctowerOutline",
       "persistentUuid": "5e78a6b8-f068-47af-8b99-89bef76d6297",
       "width": 36,
       "x": 46,
@@ -111,7 +108,7 @@
       "height": 36,
       "keepRatio": true,
       "layer": "",
-      "name": "keyboard",
+      "name": "keyboardOutline",
       "persistentUuid": "91ed9d40-dcec-455a-9e38-7840e2d595a1",
       "width": 101,
       "x": 17,
@@ -128,12 +125,80 @@
       "height": 50,
       "keepRatio": true,
       "layer": "",
-      "name": "mouse",
+      "name": "mouseOutline",
       "persistentUuid": "5e7d2f5d-c40b-4f14-b47a-f2d3b2e14642",
       "width": 39,
       "x": 128,
       "y": 185,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 139,
+      "keepRatio": true,
+      "layer": "",
+      "name": "monitorOutline",
+      "persistentUuid": "7007e551-e7ca-487f-8286-1c80b97bcbe3",
+      "width": 167,
+      "x": 252,
+      "y": 55,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 178,
+      "keepRatio": true,
+      "layer": "",
+      "name": "pctowerOutline",
+      "persistentUuid": "4106bee6-643e-4f65-b447-0f46d869d147",
+      "width": 96,
+      "x": 460,
+      "y": 14,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "mouseOutline",
+      "persistentUuid": "3f6889ea-9414-4b66-a41b-17805a59def6",
+      "width": 53,
+      "x": 452,
+      "y": 183,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 55,
+      "keepRatio": true,
+      "layer": "",
+      "name": "keyboardOutline",
+      "persistentUuid": "2cd57454-94cb-413a-9f5d-c07e729bfdac",
+      "width": 155,
+      "x": 258,
+      "y": 196,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -204,7 +269,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "monitor",
+      "name": "monitorOutline",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -264,7 +329,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "keyboard",
+      "name": "keyboardOutline",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -324,7 +389,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "mouse",
+      "name": "mouseOutline",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -384,7 +449,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "pctower",
+      "name": "pctowerOutline",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -449,16 +514,16 @@
         "objectName": "CollisionBox"
       },
       {
-        "objectName": "monitor"
+        "objectName": "monitorOutline"
       },
       {
-        "objectName": "keyboard"
+        "objectName": "keyboardOutline"
       },
       {
-        "objectName": "mouse"
+        "objectName": "mouseOutline"
       },
       {
-        "objectName": "pctower"
+        "objectName": "pctowerOutline"
       }
     ]
   },
@@ -555,6 +620,17 @@
           },
           "parameters": [
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "monitorOutline",
+            "Opacity",
+            "=",
+            "33"
           ]
         }
       ]

@@ -112,62 +112,12 @@
 	{
 		"title": "workstation_assembly",
 		"tags": "",
-		"body": "Teacher: Here is all the equipment we got in.\nIan: Cool. My partner will be showing you how to assemble the equipment\nDrag and drop the equipment onto the desk to assemble the workstation.\nIan: Let's start with dragging the Tower Unit onto the table.\n<<place_tower>> \nIan: Good job. Now, drag the Monitor onto the table.\n<<place_monitor>> \nIan: Great. Now, drag the Keyboard and Mouse onto the table.\n<<place_peripherals>>",
+		"body": "Teacher: Here is all the equipment we got in.\nIan: Cool. My partner will be showing you how to assemble the equipment\n<<switch_scene>> ",
 		"position": {
-			"x": 334,
-			"y": 585
+			"x": 302,
+			"y": 596
 		},
 		"colorID": 8
-	},
-	{
-		"title": "corrupted_files",
-		"tags": "",
-		"body": "You open the file diagnostics tool and use 'System Restore.' The corrupted files are repaired!\n\n[[Move on to the slow processor.|slow_processor]]",
-		"position": {
-			"x": 1202,
-			"y": 590
-		},
-		"colorID": 0
-	},
-	{
-		"title": "slow_processor",
-		"tags": "",
-		"body": "You perform a 'Fan Clean-Up,' boosting the computer's performance.\n\n[[Confront the final challenge: a virus threat.|virus_threat]]",
-		"position": {
-			"x": 1200,
-			"y": 300
-		},
-		"colorID": 0
-	},
-	{
-		"title": "virus_threat",
-		"tags": "",
-		"body": "You plug in the 'Anti-Virus Flash Drive' and eliminate the virus. The computer is back to normal!\n\n[[Celebrate with Mr. Rhodes.|victory_celebration]]",
-		"position": {
-			"x": 1500,
-			"y": 300
-		},
-		"colorID": 0
-	},
-	{
-		"title": "victory_celebration",
-		"tags": "",
-		"body": "Mr. Rhodes: \"Great job! And hey, let's tell the class about why tech care is important.\"\n\n[[Talk to the class about tech maintenance.|class_lesson]]",
-		"position": {
-			"x": 1800,
-			"y": 300
-		},
-		"colorID": 0
-	},
-	{
-		"title": "class_lesson",
-		"tags": "",
-		"body": "You explain the importance of tech maintenance and how simple troubleshooting can prevent problems.\n\nMr. Rhodes: \"Remember, technology helps us every day. Treat it well, and it’ll treat you well back!\"",
-		"position": {
-			"x": 2100,
-			"y": 300
-		},
-		"colorID": 0
 	},
 	{
 		"title": "teacher_accept",
@@ -196,6 +146,16 @@
 		"position": {
 			"x": -180,
 			"y": -222
+		},
+		"colorID": 0
+	},
+	{
+		"title": "workstation_activity_start",
+		"tags": "",
+		"body": "Drag and drop the equipment onto the desk to assemble the workstation.\nIan: Let's start with dragging the Tower Unit onto the table.\n<<place_tower>> \nIan: Good job. Now, drag the Monitor onto the table.\n<<place_monitor>> \nIan: Great. Now, drag the Keyboard and Mouse onto the table.\n<<place_peripherals>>",
+		"position": {
+			"x": 598,
+			"y": 588
 		},
 		"colorID": 0
 	}

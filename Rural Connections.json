@@ -2194,6 +2194,15 @@
         "name": "assets\\pctower.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/dialogueCollisionTeacher.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dialogueCollisionTeacher",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
