@@ -2139,6 +2139,12 @@
           "parameters": [
             "\"activity_end\""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [

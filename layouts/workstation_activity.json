@@ -2232,6 +2232,12 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -2274,6 +2280,16 @@
             "QuestsCompleted",
             "+",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "TeacherComplete",
+            "True",
+            ""
           ]
         },
         {
