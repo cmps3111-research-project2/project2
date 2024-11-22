@@ -152,7 +152,7 @@
 	{
 		"title": "workstation_activity_start",
 		"tags": "",
-		"body": "Drag and drop the equipment onto the desk to assemble the workstation.\nIan: Let's start with dragging the Tower Unit onto the table.\n<<place_tower>> \nIan: Good job. Now, drag the Monitor onto the table.\n<<place_monitor>> \nIan: Great. Now, drag the Keyboard and Mouse onto the table.\n<<place_peripherals>>",
+		"body": "Ian: Let's start with dragging the Tower Unit onto the table.\nDrag and drop the equipment onto the desk to assemble the workstation.\n<<place_tower>> \nIan: Good job. Now, drag the Monitor onto the table.\n<<place_monitor>> \nIan: Great. Now, drag the Keyboard and Mouse onto the table.\n<<place_peripherals>>",
 		"position": {
 			"x": 598,
 			"y": 588

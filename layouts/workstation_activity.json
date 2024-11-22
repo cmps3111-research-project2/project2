@@ -485,9 +485,9 @@
       "layer": "UI",
       "name": "dialogue",
       "persistentUuid": "743939a9-31c8-4895-8c09-7d8b082f8f61",
-      "width": 431,
-      "x": 82,
-      "y": 366,
+      "width": 230,
+      "x": 20,
+      "y": 308,
       "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
@@ -502,8 +502,8 @@
       "name": "dialogueOptions",
       "persistentUuid": "92b2f429-e5f3-4563-b598-248ab1097801",
       "width": 0,
-      "x": 82,
-      "y": 414,
+      "x": 27,
+      "y": 340,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -513,14 +513,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 137,
+      "height": 104,
       "keepRatio": true,
       "layer": "UI",
       "name": "dialogueBackground",
       "persistentUuid": "2da3dcad-d2c4-4bf4-85a0-8c037b69dea1",
-      "width": 544,
-      "x": 50,
-      "y": 333,
+      "width": 276,
+      "x": 0,
+      "y": 283,
       "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
@@ -1800,6 +1800,30 @@
         },
         {
           "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "ComponentsToAdd",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::GoToNextLine"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
             "value": "Wait"
           },
           "parameters": [
@@ -1942,7 +1966,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Assemble work Station"
+      "comment": "Assemble workstation"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1952,12 +1976,18 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "monitor",
-            "MonitorCollisionBox",
+            "mouse",
+            "MouseCollisionBox",
             "",
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -1966,7 +1996,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "monitorOutline",
+            "mouseOutline",
             "Opacity",
             "=",
             "255"
@@ -1977,7 +2007,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "monitor"
+            "mouse"
           ]
         },
         {
@@ -1989,54 +2019,12 @@
             "-",
             "1"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "pctower",
-            "PcCollisionBox",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "pctowerOutline",
-            "Opacity",
-            "=",
-            "255"
-          ]
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "DialogueTree::GoToNextLine"
           },
-          "parameters": [
-            "pctower"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "ComponentsToAdd",
-            "-",
-            "1"
-          ]
+          "parameters": []
         }
       ]
     },
@@ -2054,6 +2042,12 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -2085,6 +2079,12 @@
             "-",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::GoToNextLine"
+          },
+          "parameters": []
         }
       ]
     },
@@ -2096,12 +2096,18 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "mouse",
-            "MouseCollisionBox",
+            "pctower",
+            "PcCollisionBox",
             "",
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -2110,7 +2116,7 @@
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
-            "mouseOutline",
+            "pctowerOutline",
             "Opacity",
             "=",
             "255"
@@ -2121,7 +2127,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "mouse"
+            "pctower"
           ]
         },
         {
@@ -2132,6 +2138,82 @@
             "ComponentsToAdd",
             "-",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::GoToNextLine"
+          },
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "monitor",
+            "MonitorCollisionBox",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "monitorOutline",
+            "Opacity",
+            "=",
+            "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "monitor"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "ComponentsToAdd",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::GoToNextLine"
+          },
+          "parameters": []
+        },
+        {
+          "type": {
+            "value": "DebuggerTools::ConsoleLog"
+          },
+          "parameters": [
+            "ToString(ComponentsToAdd)",
+            "\"info\"",
+            ""
           ]
         }
       ]
@@ -2515,6 +2597,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2759,125 +2842,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Up"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DialogueTree::SelectOption"
-          },
-          "parameters": [
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreY"
-          },
-          "parameters": [
-            "DialogueOptionsPointer",
-            "=",
-            "165"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Down"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DialogueTree::SelectOption"
-          },
-          "parameters": [
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreY"
-          },
-          "parameters": [
-            "DialogueOptionsPointer",
-            "=",
-            "41"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Space"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "DialogueTree::ConfirmSelectOption"
-          },
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DialogueTree::HasSelectedOptionChanged"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "dialogueOptions",
-            "Text",
-            "=",
-            "DialogueTree::VerticalOptionsList(\"> \")"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
